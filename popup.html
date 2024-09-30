@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Links</title>
+    <style>
+        .link-container {
+            margin-bottom: 10px;
+        }
+
+        .copy-btn {
+            margin-left: 10px;
+            cursor: pointer;
+            padding: 5px 10px;
+            background-color: #ec99e4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .copy-btn:hover {
+            background-color: #ec99e4;
+        }
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <label for="linkedIn">LinkedIn:</label>
+        <span id="linkedIn">https://www.linkedin.com/in/noravu/</span>
+        <button class="copy-btn" data-link="https://www.linkedin.com/in/noravu/">Copy</button>
+    </div>
+
+    <div class="link-container">
+        <label for="website">Personal Website:</label>
+        <span id="website">https://personal-website-nu-puce.vercel.app/</span>
+        <button class="copy-btn" data-link="https://personal-website-nu-puce.vercel.app/">Copy</button>
+    </div>
+
+    <div class="link-container">
+        <label for="github">GitHub:</label>
+        <span id="github">https://github.com/zlnga1001</span>
+        <button class="copy-btn" data-link="https://github.com/zlnga1001">Copy</button>
+    </div>
+
+    <script src="popup.js"></script> <!-- External JavaScript file -->
+</body>
+</html>
